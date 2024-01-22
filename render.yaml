@@ -1,0 +1,6 @@
+ services:
+  - type: web
+    name: nxtwallpapers
+    env: node
+    plan: free
+    startCommand: npm install && npm start
